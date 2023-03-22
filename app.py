@@ -200,7 +200,6 @@ if submit:
         list = [id, name, email, question, answer, gcs_uri, fb_flag]
         google_spread(list)
 
-        time.sleep(3)
         webbrowser.open_new_tab(url)
 
 st.stop()
