@@ -84,7 +84,7 @@ def countdown():
 
 def countdown_answer():
     ph = st.empty()
-    N = 60*5
+    N = 4*5
 
     for secs in range(N,0,-1):
         mm, ss = secs//60, secs%60
@@ -146,8 +146,8 @@ contents = recorder()
 
 if contents == None:
     st.info('①　アイコンボタンを押して回答録音　(アイコンが赤色で録音中)。  \n②　もう一度押して回答終了　(再度アイコンが黒色になれば完了)')
-    contents = countdown_answer()
-    st.info(contents)
+    timeout_msg = countdown_answer()
+    st.info(timeout_msg)
     st.stop()
 
 st.info('【録音完了！　音声分析中...】  \n　↓分析中は録音データをチェック！')
