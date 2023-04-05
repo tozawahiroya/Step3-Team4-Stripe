@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-05T10:09:25.753Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="_SbzbyJbY_Wdai5uCH4S" version="21.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-05T10:18:25.396Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="HFkYe_VWXgLhO5ulAZp-" version="21.1.4" type="github">
   <diagram name="Page-1" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
     <mxGraphModel dx="954" dy="529" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -185,6 +185,18 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="rtjSVbUBvYGyqIFWCW7j-76" value="決済" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;fontColor=default;strokeColor=#0B4D6A;" edge="1" parent="7baba1c4bc27f4b0-2" target="7baba1c4bc27f4b0-6">
+          <mxGeometry x="-0.0067" relative="1" as="geometry">
+            <mxPoint x="-90" y="1510" as="sourcePoint" />
+            <mxPoint x="770" y="1480" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-105" y="1511.04" />
+              <mxPoint x="-65" y="1630" />
+              <mxPoint x="45" y="1640" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="7baba1c4bc27f4b0-3" value="FasrAPI&lt;br&gt;Python" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=3;fontFamily=Verdana;fontSize=12;align=center;fillColor=#09555B;strokeColor=#BAC8D3;fontColor=#EEEEEE;dashed=1;dashPattern=1 1;" parent="1" vertex="1">
           <mxGeometry x="400" y="80" width="100" height="2450" as="geometry" />
         </mxCell>
@@ -202,11 +214,11 @@
         </mxCell>
         <mxCell id="7baba1c4bc27f4b0-35" value="モノラル変換" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;elbow=vertical;edgeStyle=orthogonalEdgeStyle;curved=1;fontColor=default;strokeColor=#0B4D6A;" parent="7baba1c4bc27f4b0-3" edge="1">
           <mxGeometry x="0.2663" relative="1" as="geometry">
-            <mxPoint x="50" y="881" as="sourcePoint" />
-            <mxPoint x="50" y="919" as="targetPoint" />
+            <mxPoint x="50" y="888" as="sourcePoint" />
+            <mxPoint x="50" y="926" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="130.5" y="881" />
-              <mxPoint x="130.5" y="919" />
+              <mxPoint x="130.5" y="888" />
+              <mxPoint x="130.5" y="926" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
@@ -241,6 +253,40 @@
               <mxPoint x="156.5" y="1222" />
             </Array>
             <mxPoint x="191" y="1222" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rtjSVbUBvYGyqIFWCW7j-69" value="API4：DB記録l" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;fontColor=default;strokeColor=#0B4D6A;" edge="1" parent="7baba1c4bc27f4b0-3">
+          <mxGeometry x="-0.0067" relative="1" as="geometry">
+            <mxPoint x="-110" y="1310" as="sourcePoint" />
+            <mxPoint x="49" y="1311.04" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-125" y="1311.04" />
+              <mxPoint x="-85" y="1430" />
+              <mxPoint x="25" y="1440" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rtjSVbUBvYGyqIFWCW7j-71" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=horizontal;fontColor=default;strokeColor=#0B4D6A;" edge="1" parent="7baba1c4bc27f4b0-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-110" y="1377" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-17.5" y="1377" />
+              <mxPoint x="12.5" y="1377" />
+            </Array>
+            <mxPoint x="608.5" y="1377" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rtjSVbUBvYGyqIFWCW7j-72" value="API5：決済メール" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;fontColor=default;strokeColor=#0B4D6A;" edge="1" parent="7baba1c4bc27f4b0-3">
+          <mxGeometry x="-0.0067" relative="1" as="geometry">
+            <mxPoint x="-110" y="1420" as="sourcePoint" />
+            <mxPoint x="49" y="1421.04" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-125" y="1421.04" />
+              <mxPoint x="-85" y="1540" />
+              <mxPoint x="25" y="1550" />
+            </Array>
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="7baba1c4bc27f4b0-4" value="Google cloud strage" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=3;fontFamily=Verdana;fontSize=12;align=center;fillColor=#09555B;strokeColor=#BAC8D3;fontColor=#EEEEEE;dashed=1;dashPattern=1 1;" parent="1" vertex="1">
@@ -288,6 +334,30 @@
               <mxPoint x="-105" y="1161.04" />
               <mxPoint x="-65" y="1280" />
               <mxPoint x="45" y="1290" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rtjSVbUBvYGyqIFWCW7j-70" value="API4：DB記録" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;fontColor=default;strokeColor=#0B4D6A;" edge="1" parent="7baba1c4bc27f4b0-4">
+          <mxGeometry x="-0.0063" relative="1" as="geometry">
+            <mxPoint x="-90" y="1337" as="sourcePoint" />
+            <mxPoint x="468.5" y="1338.04" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-105" y="1338.04" />
+              <mxPoint x="-65" y="1457" />
+              <mxPoint x="45" y="1467" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rtjSVbUBvYGyqIFWCW7j-73" value="API5：決済メール" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;fontColor=default;strokeColor=#0B4D6A;" edge="1" parent="7baba1c4bc27f4b0-4" target="rtjSVbUBvYGyqIFWCW7j-67">
+          <mxGeometry x="-0.0067" relative="1" as="geometry">
+            <mxPoint x="-90" y="1446" as="sourcePoint" />
+            <mxPoint x="69" y="1447.04" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-105" y="1447.04" />
+              <mxPoint x="-65" y="1566" />
+              <mxPoint x="45" y="1576" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
@@ -347,8 +417,8 @@
         <mxCell id="rtjSVbUBvYGyqIFWCW7j-7" value="提出" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#09555B;strokeColor=#BAC8D3;fontColor=#EEEEEE;" vertex="1" parent="7baba1c4bc27f4b0-8">
           <mxGeometry x="-90" y="838" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="rtjSVbUBvYGyqIFWCW7j-9" value="完了" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#09555B;strokeColor=#BAC8D3;fontColor=#EEEEEE;" vertex="1" parent="7baba1c4bc27f4b0-8">
-          <mxGeometry x="-90" y="1210" width="120" height="30" as="geometry" />
+        <mxCell id="rtjSVbUBvYGyqIFWCW7j-75" value="決済" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#09555B;strokeColor=#BAC8D3;fontColor=#EEEEEE;" vertex="1" parent="7baba1c4bc27f4b0-8">
+          <mxGeometry x="-90" y="1480" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="7baba1c4bc27f4b0-40" value="user&lt;br&gt;" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=middle;align=center;spacingTop=-6;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;fillColor=#09555B;strokeColor=#BAC8D3;fontColor=#EEEEEE;" parent="1" vertex="1">
           <mxGeometry x="100" y="30" width="100" height="35" as="geometry" />
@@ -441,6 +511,33 @@
               <mxPoint x="413" y="1354" />
             </Array>
             <mxPoint x="447.5" y="1354" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rtjSVbUBvYGyqIFWCW7j-67" value="Gmail" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=3;fontFamily=Verdana;fontSize=12;align=center;fillColor=#09555B;strokeColor=#BAC8D3;fontColor=#EEEEEE;dashed=1;dashPattern=1 1;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="80" width="100" height="2980" as="geometry" />
+        </mxCell>
+        <mxCell id="rtjSVbUBvYGyqIFWCW7j-74" value="return(Mail)" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=horizontal;fontColor=default;strokeColor=#0B4D6A;" edge="1" parent="rtjSVbUBvYGyqIFWCW7j-67" target="7baba1c4bc27f4b0-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-670" y="1480" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-577.5" y="1480" />
+              <mxPoint x="-547.5" y="1480" />
+            </Array>
+            <mxPoint x="48.5" y="1480" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rtjSVbUBvYGyqIFWCW7j-68" value="Mail" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=middle;align=center;spacingTop=-6;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;fillColor=#09555B;strokeColor=#BAC8D3;fontColor=#EEEEEE;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="30" width="100" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="rtjSVbUBvYGyqIFWCW7j-77" value="Feedback" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=horizontal;fontColor=default;strokeColor=#0B4D6A;" edge="1" parent="1" source="7baba1c4bc27f4b0-6" target="7baba1c4bc27f4b0-8">
+          <mxGeometry x="-0.085" y="-10" relative="1" as="geometry">
+            <mxPoint x="-130" y="1640" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="241.5" y="1640" />
+              <mxPoint x="271.5" y="1640" />
+            </Array>
+            <mxPoint x="867.5" y="1640" as="sourcePoint" />
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
